@@ -1,0 +1,35 @@
+footer{
+    color: gray;
+    text-align: center;
+    size: 3vw;
+    font-weight: bold;
+    background-color: black;
+}
+
+header img {
+    width: 100%;
+    display: block;
+    padding: 0 25%;
+}
+
+iframe{
+    width: 100%;
+    height: 48vw;
+    background-color: transparent;
+}
+
+.bodyPpal{
+    background-image: url(bgopcion.jpeg);
+    background-size: cover;
+}
+
+.slide img{
+    width: 70%;
+    height: 50vw;
+}
+
+@media all and (max-width: 1020px){
+    iframe {
+        height: 650px;
+    }
+}
